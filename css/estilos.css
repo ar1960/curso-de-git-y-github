@@ -6,49 +6,59 @@ body, h1, h2, h3, p {
 
 /* Estilos para el contenedor principal */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif; /* Fuente similar a la usada en Platzi */
     line-height: 1.6;
-    background-color: #f8f8f8;
+    background-color: #f5f5f5; /* Color de fondo similar a Platzi */
     color: #333;
-    margin: 20px;
+    margin: 0;
 }
 
 /* Estilos para el encabezado */
 #cabecera {
-    background-color: #007bff;
+    background-color: #42b883; /* Color principal de Platzi */
     color: #fff;
     padding: 20px;
     text-align: center;
 }
 
+#cabecera h1 {
+    color: #fff; /* Color del título de la cabecera */
+}
+
+/* Estilos para el contenido */
+.sequence {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff; /* Fondo de los bloques */
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra similar a la de Platzi */
+}
+
 /* Estilos para los títulos */
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif; /* Fuente similar a la usada en Platzi */
+}
+
 h1 {
     font-size: 36px;
     margin-top: 20px;
+    color: #42b883; /* Color de los títulos principales de Platzi */
 }
 
 h2 {
     font-size: 28px;
     margin-top: 15px;
+    color: #35495e; /* Otro color común en Platzi */
 }
 
 h3 {
     font-size: 20px;
     margin-top: 10px;
+    color: #42b883; /* Otro color principal de Platzi */
 }
 
 /* Estilos para los párrafos */
 p {
     margin-bottom: 15px;
-}
-
-/* Estilos para los comandos */
-h3 {
-    color: #007bff;
-    font-weight: bold;
-}
-
-/* Estilos para los textos de comando */
-p {
-    color: #555;
+    color: #555; /* Color del texto de los párrafos */
 }
